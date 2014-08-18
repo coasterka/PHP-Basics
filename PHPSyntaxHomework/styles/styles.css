@@ -1,0 +1,25 @@
+body {
+	background: skyblue;
+	font-family: Arial, sans-serif;
+}
+
+div ul {
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+div ul li {
+	line-height: 30px;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div ul li a:hover {
+	color: blue;
+	cursor: pointer;
+}

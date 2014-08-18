@@ -1,0 +1,18 @@
+table {
+	border-spacing: 0px;
+}
+
+table tr td {
+	border: 1px solid black;
+	padding: 5px;
+	width: 110px;
+}
+
+table tr td:first-child {
+	background: orange;
+	font-weight: bold;
+}
+
+table tr td:last-child {
+	text-align: right;
+}
