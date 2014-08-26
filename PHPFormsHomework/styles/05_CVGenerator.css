@@ -1,0 +1,25 @@
+form fieldset {
+	width: 480px;
+	border-radius: 5px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	cursor: pointer;
+	background: orange;
+	color: white;
+}
+
+input[type="radio"]:hover {
+	cursor: pointer;
+}
+
+table, table th, table td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+form table.main {
+	margin-bottom: 20px;
+}
