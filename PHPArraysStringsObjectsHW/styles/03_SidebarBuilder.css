@@ -1,0 +1,46 @@
+body, html {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 0.9em;
+}
+
+aside {
+	border: 1px solid black;
+	border-radius: 15px;
+	width: 150px;
+	padding: 10px;
+	padding-bottom: 0;
+	background-image:
+    linear-gradient(
+		#ccdaeb,
+      	#ccdaeb 50%,
+  	    #a6c0e3 50%,
+    	#ccdaeb 75%,
+     	#799bc8 100%
+    );
+}
+
+aside hr {
+	border: 1px solid black;
+}
+
+aside header h3 {
+	margin: 0;
+}
+
+aside ul {
+	padding-left: 20px;
+	list-style-type: circle;
+}
+
+aside ul li {
+	line-height: 20px;
+}
+
+aside ul li a {
+	color: black;
+}
+
+aside ul li a:hover {
+	color: orange;
+	font-weight: bold;
+}
